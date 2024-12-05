@@ -1,0 +1,69 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+.titulo-destaque{
+    color: rgb(14, 84, 14);
+}
+.container{
+    margin: 10% 15%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container__filho{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px ;
+}
+h1{
+    font-family: "Croissant One", serif;
+    font-size: 36px;
+}
+p{
+    font-size: 20px;
+   font-family: 'monteserrat',sans-serif;
+}
+.botao{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    font-family: 'monteserrat',sans-serif;
+    font-weight: 600;
+    background-color:  rgb(18, 63, 18);
+    color:white;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 21.5px 0px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+:hover.link{
+    background-color:white;
+    color: rgb(18, 63, 18) ;
+}
